@@ -8,8 +8,10 @@ Selenium integration enables testing of full pages and sites.
 
 ## Requirements
 
-- Chrome must be installed; follow the directions at https://www.google.com/chrome/ to install it. On Unix, ensure that Chrome is on your path.
-- Chrome Driver must be installed; follow the directions at: https://sites.google.com/a/chromium.org/chromedriver/getting-started to install it.
+- The main `axe.min.js` is placed in `/src/test/resources` (or otherwise in a location accessible to the browser controlled by Selenium). This script can be found [here](https://unpkg.com/browse/axe-core@3.5.5/axe.min.js).
+- Selinium must be setup; A supported browser installed and driver for it setup.
+  - Firefox instructions can be found here: https://www.browserstack.com/guide/run-selenium-tests-using-firefox-driver
+  - Chrome instructions can be found here: https://chromedriver.chromium.org/getting-started
 - The Java SE Development Kit must be installed; follow the directions at http://www.oracle.com/technetwork/java/javase/downloads/index.html to install it.
 - Maven must be installed; follow the directions at http://maven.apache.org/ to install it. Ensure that it is on your path.
 
@@ -20,7 +22,7 @@ Selenium integration enables testing of full pages and sites.
 3. `node src/test/resources/test-app.js` to start the fixture server.
 4. `mvn test` to build and run the JUnit tests that drive Selenium against the fixture.
 
-This should launch an automated Firefox window, load and analyze the configured web pages, and then pass/fail a JUnit test depending on whether there are any accessibility violations detected.
+This should launch an automated browser window, load and analyze the configured web pages, and then pass/fail a JUnit test depending on whether there are any accessibility violations detected.
 
 ## To modify the example
 
