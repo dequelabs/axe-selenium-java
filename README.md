@@ -1,4 +1,8 @@
-# aXe Selenium (Java) Integration
+# [DEPRECATED] aXe Selenium (Java) Integration
+
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
+
+> This repository has been deprecated. The package has been moved to [axe-core-maven-html](https://github.com/dequelabs/axe-core-maven-html).
 
 [![CircleCI](https://circleci.com/gh/dequelabs/axe-selenium-java.svg?style=svg)](https://circleci.com/gh/dequelabs/axe-selenium-java)
 
