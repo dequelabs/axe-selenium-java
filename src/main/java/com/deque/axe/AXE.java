@@ -249,6 +249,7 @@ public class AXE {
 		private String options = "{}";
 		private Boolean skipFrames = false;
 		private int timeout = 30;
+		private int timeout_new = 30;
 
 		/**
 		 * Initializes the Builder class to chain configuration before analyzing pages.
